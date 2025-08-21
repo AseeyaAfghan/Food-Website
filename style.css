@@ -256,8 +256,8 @@ width: 60px;
 }
 
 .inner-big{
-  height: 350px;
-  width: 260px;
+  height: 360px;
+  width: 250px;
   border: 3px solid  #FFA500;
   display: flex;
   justify-content: center;
@@ -265,12 +265,50 @@ width: 60px;
   flex-wrap: wrap;
 }
 
-.inner-big img{
-  height: 300px;
-  width: 220px;
-  
+.inner-big h4{
+  font-size: 1.5rem;
+  color: #ff5e00;
+  background-color: #ece936;
+  border-radius: 3px;
 }
 
+
+
+#one{
+  background-image: url(assets/resturant.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+#two{
+  background-image: url(assets/cheef\ \(2\).jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#three{
+  background-image: url(assets/mul.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#four{
+  background-image: url(assets/interior.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#five{
+  background-image: url(assets/dining.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#six{
+  background-image: url(assets/table\ aviat.jpg);
+  background-size: cover;
+  background-position: center;
+}
 /* <!-- ------------------------------------Review----------------------------------------------- --> */
 
 
@@ -391,7 +429,7 @@ width: 60px;
 
 #texo p{
  font-size: 0.8rem;
- color: rgb(104, 103, 103);
+ color: rgb(116, 115, 115);
  padding-left: 5px;
 }
 
@@ -420,7 +458,7 @@ width: 60px;
 }
 
 .one li{
-  color: rgb(59, 58, 58);
+  color: rgb(116, 115, 115);
   list-style: none;
   padding-bottom: 20px;
 }
