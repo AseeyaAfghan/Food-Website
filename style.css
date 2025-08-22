@@ -103,7 +103,7 @@ width: 60px;
 .whole{
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url(assets/i.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgb(0,0,0,0.6)),url(assets/t.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -245,9 +245,9 @@ width: 60px;
 }
 
 #big-container{
-  height: 400px;
+  height: 100%;
   width: 100%;
-  background-color:rgba(0,0,0,0.3);
+  /* background-color:rgba(0,0,0,0.3); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,48 +267,55 @@ width: 60px;
 
 .inner-big h4{
   font-size: 1.5rem;
-  color: #ff5e00;
-  background-color: #ece936;
-  border-radius: 3px;
+  color: #ff0000;
+  background-color: #FFA500;
+  border-radius: 5px;
 }
-
-
 
 #one{
   background-image: url(assets/resturant.webp);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 #two{
   background-image: url(assets/cheef\ \(2\).jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 #three{
   background-image: url(assets/mul.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
+
 
 #four{
-  background-image: url(assets/interior.jpg);
-  background-size: cover;
+  background-image: url(assets/dining.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
+
 #five{
-  background-image: url(assets/dining.jpg);
-  background-size: cover;
+  background-image: url(assets/hoto.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 #six{
-  background-image: url(assets/table\ aviat.jpg);
-  background-size: cover;
+  background-image: url(assets/interior.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
+
 /* <!-- ------------------------------------Review----------------------------------------------- --> */
 
 
@@ -557,7 +564,7 @@ footer p{
  
 }
 
-#gallery{
+/* #gallery{
   font-size: 2rem;
   flex-wrap: wrap;
 }
@@ -580,7 +587,7 @@ footer p{
   width: 220px;
   padding-top: 10px;
   padding-bottom: 10px; 
-}
+} */
 
 #order-container{
   height: 100%;
